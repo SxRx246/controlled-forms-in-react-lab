@@ -4,7 +4,8 @@ import './App.css';
 import Bookshelf from './Bookshelf.jsx';
 
 const App = () => {
-  const [books , setbooks] = useState([{
+  const [books , setbooks] = useState([{}])
+  const [newBook , setNewBook] = useState([{
     title: "",
     author: ""
   }])
