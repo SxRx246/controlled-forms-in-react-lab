@@ -36,6 +36,7 @@ input {
   align-items: center;
   justify-content: center;
   padding: 20px;
+
 }
 
 .bookCardsDiv {
@@ -57,6 +58,10 @@ input {
   margin: 15px 10px;
   background-color: rgb(155, 155, 155);
   color: black;
+}
+button{
+    background-color: blueviolet;
+
 }
 
 @keyframes logo-spin {
