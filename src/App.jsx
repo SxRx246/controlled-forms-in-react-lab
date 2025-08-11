@@ -11,15 +11,12 @@ const App = () => {
 
   const handleInputChange = (event) =>{
     setNewBook({...newBook , [event.target.name]: event.target.value })
-    console.log(newBook)
   }
   const handleSubmit = (event) =>{
     event.preventDefault()
-    console.log("Form submitted:", newBook);
     const newBookshelf = [...books, newBook]
     setbooks(newBookshelf)
     setNewBook({ title: "", author: "" })
-    console.log(newBookshelf)
   }
 
   return (
