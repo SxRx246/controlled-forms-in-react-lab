@@ -18,7 +18,7 @@ const Bookshelf = ({ handleSubmit, handleInputChange, newBook, books }) => {
                 {books.map((book , index) => (
                     <div className='bookCard' key={index}>
                             <h3>{book.title}</h3>
-                            <p>{book.author}</p>
+                            <p>by {book.author}</p>
                     </div>
                 ))}
             </div>
