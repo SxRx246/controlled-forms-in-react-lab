@@ -45,6 +45,7 @@ input {
   flex-wrap: wrap;
   width: 90%;
   margin-top: 20px;
+  align-items: center;
 }
 
 .bookCard {
